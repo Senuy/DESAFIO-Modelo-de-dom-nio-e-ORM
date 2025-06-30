@@ -61,6 +61,12 @@ public class Bloco {
 	public void setFim(Instant fim) {
 		this.fim = fim;
 	}
+	
+	
+
+	public Atividade getAtividade() {
+		return atividade;
+	}
 
 	@Override
 	public int hashCode() {
